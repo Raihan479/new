@@ -22,6 +22,11 @@ img {
     width: 1140px;
     margin: 0 auto;
 }
+
+
+/*Header Start*/
+
+
 .Heading-bg {
     background: url(../images/Education.jpg);
     width: 100%;
@@ -51,6 +56,10 @@ img {
     border-radius: 25px;
     margin-left: 60px;
 }
+
+/*header End*/
+
+/*banner-section Start*/
 
 .banner-section {
      display: flex;
@@ -84,6 +93,12 @@ img {
     padding: 12px;
     border-radius: 61px;
 }
+
+/*banner-section End*/
+
+
+/*admission-section Start*/
+
 .admission-section {
     display: flex;
     justify-content: space-between;
@@ -147,8 +162,6 @@ img {
 .send-mail img{
     width: 20px;
 }
-
-
 .testimonial {
     width: 50%;
     text-align: center;
@@ -164,6 +177,12 @@ img {
     font-size: 26px;
     line-height: 34px;
 }
+
+/*admission-section End*/
+
+
+/*about-section Start*/
+
 .about-section{
     display: flex;
     justify-content: space-between;
@@ -171,6 +190,7 @@ img {
 }
 .about-image {
     width: 45%;
+    background-image:url(images/); 
 }
 .about-image img {
     width: 100%;
@@ -200,7 +220,10 @@ img {
     border-radius: 45px;
 }
 
+/*about-section End*/
 
+
+/*service-section Start*/
 
 .service-section{
     display: flex;
@@ -227,17 +250,11 @@ img {
     color: #8c8c8c;
 }
 
-.service-icon img {
-    background: #4BD2FF;
-    width: 57px;
-    height: 54px;
-    border-radius: 100%;
-    padding: 30px;
-    margin-bottom: 45px;
-    box-shadow: 0px 0px 53px 0px #4BD2FF;
-}
+
+/*service-section End*/
 
 
+/*footer-section Start*/
 
 .footer-section{
     border-bottom: 1px solid #D1CAD4;
@@ -262,3 +279,5 @@ img {
     color: #D1CAD4;
     line-height: 65px;
 }
+
+/*footer-section End*/
